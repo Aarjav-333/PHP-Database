@@ -49,7 +49,7 @@ try {
 
     function insertValues($conn) {
 
-        $insert_query = "INSERT INTO Student (Name, Address, Mark1, Mark2) VALUES ('Sudhi', 'Edavachal', 156, 111)";
+        $insert_query = "INSERT INTO Student (Name, Address, Mark1, Mark2) VALUES ('Sudhi', 'K S', 156, 111)";
 
         $sql = mysqli_query($conn, $insert_query);
 
